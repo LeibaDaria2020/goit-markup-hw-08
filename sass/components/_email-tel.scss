@@ -1,0 +1,52 @@
+.address {
+  margin-left: auto;
+
+  &-list {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  &-mail-link,
+  &-tel-link {
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: $accent-color;
+    transition: color 250ms $transition-timing-function;
+  }
+
+  &-tel-link {
+    padding-left: 30px;
+  }
+
+  &-mail-link:focus,
+  &-mail-link:hover,
+  &-tel-link:focus,
+  &-tel-link:hover {
+    color: $hover-color;
+    fill: $hover-color;
+  }
+}
+
+.icon {
+  &-envelope {
+    display: block;
+    margin-right: 10px;
+    fill: currentColor;
+    width: 16px;
+    height: 12px;
+  }
+  &-phone {
+    display: block;
+    margin-right: 10px;
+    fill: currentColor;
+    width: 10px;
+    height: 16px;
+  }
+}

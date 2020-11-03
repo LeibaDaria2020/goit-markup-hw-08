@@ -1,0 +1,41 @@
+.form {
+  &-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+  }
+  &-submit {
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+  }
+  &-input-footer {
+    margin-right: 12px;
+    padding: 15px 0px 15px 16px;
+    width: 358px;
+    height: 50px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2f303a;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms $transition-timing-function, color 250ms $transition-timing-function;
+
+    &:hover,
+    &:focus {
+      outline: none;
+      border: 1px solid #fff;
+    }
+    &:hover::placeholder,
+    &:focus::placeholder {
+      color: #fff;
+    }
+  }
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

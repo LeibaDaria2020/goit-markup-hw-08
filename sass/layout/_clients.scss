@@ -1,0 +1,24 @@
+.clients {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    width: 170px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: background-color 250ms $transition-timing-function, fill 250ms $transition-timing-function;
+
+    &:hover {
+      border-color: $hover-color;
+      fill: $hover-color;
+    }
+  }
+}

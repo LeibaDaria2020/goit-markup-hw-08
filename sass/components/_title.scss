@@ -1,0 +1,25 @@
+.title {
+  // margin-bottom: 50px;
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.167;
+  // text-align: center;
+  // letter-spacing: 0.03em;
+  // color: $secondary-color;
+
+  &-hero {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.615;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title-hero {
+    font-size: 44px;
+    line-height: 1.364;
+  }
+}

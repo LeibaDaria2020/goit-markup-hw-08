@@ -1,0 +1,12 @@
+.portf-filter {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  &-list {
+    display: flex;
+    justify-content: center;
+  }
+  &-item:not(:last-child) {
+    margin-right: 8px;
+  }
+}

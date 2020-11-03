@@ -1,0 +1,38 @@
+.logo {
+  margin-right: 93px;
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $hover-color;
+
+  &-second-part {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  &-footer {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $hover-color;
+  }
+
+  &-second-part-footer {
+    margin: 0px;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+}
