@@ -75,6 +75,7 @@ body {
 }
 
 .navigation-list-link {
+  display: none;
   position: relative;
   padding-bottom: 32px;
   font-weight: 500;
@@ -98,6 +99,7 @@ body {
 }
 
 .current-page {
+  display: none;
   position: relative;
   padding-bottom: 32px;
   font-weight: 500;
@@ -697,6 +699,18 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.menu-batton {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: transparent;
+}
+
+.menu-batton .icon-close {
+  display: none;
 }
 
 .border-underline {

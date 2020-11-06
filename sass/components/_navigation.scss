@@ -6,6 +6,7 @@
     align-items: center;
   }
   &-list-link {
+    display: none;
     position: relative;
     padding-bottom: 32px;
     font-weight: 500;
@@ -31,6 +32,7 @@
 }
 
 .current-page {
+  display: none;
   position: relative;
   padding-bottom: 32px;
   font-weight: 500;

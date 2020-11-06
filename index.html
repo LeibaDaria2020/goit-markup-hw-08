@@ -10,10 +10,19 @@
   </head>
   <body>
     <!--HEADER-->
-    <!-- <header class="header section">
+    <header class="header section">
       <div class="container">
         <nav class="navigation">
-          <a class="logo link" lang="en" href=""> <span class="logo-footer">Web</span><span class="logo-second-part">Studio</span> </a>
+          <a class="logo link" lang="en" href="">
+            <span class="logo-footer">Web</span>
+            <span class="logo-second-part">Studio</span>
+          </a>
+          <button class="menu-batton" type="button">
+            <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
+              <use class="icon-close" href="./images/sprite.svg#button-close-mobile"></use>
+              <use class="icon-menu" href="./images/sprite.svg#button-menu-mobile"></use>
+            </svg>
+          </button>
           <ul class="navigation-list list">
             <li class="navigation-list-item">
               <a class="current-page link" href="">Студия</a>
@@ -31,9 +40,9 @@
             <li class="address-list-item">
               <a class="address-mail-link link" href="mailto:info@devstudio.com" target="_blank">
                 <svg class="icon-envelope">
-                  <use href="./images/sprite.svg#envelope" class="mail-svg"></use> -->
-    <!-- </svg> -->
-    <!-- info@devstudio.com
+                  <use href="./images/sprite.svg#envelope" class="mail-svg"></use>
+                </svg>
+                info@devstudio.com
               </a>
             </li>
             <li>
@@ -47,46 +56,49 @@
           </ul>
         </address>
       </div>
-    <!-- </header> -->
+    </header>
     <main>
       <!--HERO-->
-
-      <section class="hero container">
-        <h1 class="title-hero">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
-      </section>
+      <div class="container">
+        <section class="hero">
+          <h1 class="title-hero">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
+        </section>
+      </div>
       <!--END-HERO-->
 
       <!--OUR ADVANTAGES-->
 
-      <section class="advantages container">
-        <ul class="advantages-list list">
-          <li class="advantages-list-item">
-            <h2 class="advantages-subtitle">Внимание к деталям</h2>
-            <p class="advantages-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-          </li>
-          <li class="advantages-list-item">
-            <h2 class="advantages-subtitle">Пунктуальность</h2>
-            <p class="advantages-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-          </li>
-          <li class="advantages-list-item">
-            <h2 class="advantages-subtitle">Планирование</h2>
-            <p class="advantages-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-          </li>
-          <li class="advantages-list-item">
-            <h2 class="advantages-subtitle">Современные технологии</h2>
-            <p class="advantages-description last">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-          </li>
-        </ul>
+      <section class="advantages">
+        <div class="container">
+          <ul class="advantages-list list">
+            <li class="advantages-list-item">
+              <h2 class="advantages-subtitle">Внимание к деталям</h2>
+              <p class="advantages-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+            <li class="advantages-list-item">
+              <h2 class="advantages-subtitle">Пунктуальность</h2>
+              <p class="advantages-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            </li>
+            <li class="advantages-list-item">
+              <h2 class="advantages-subtitle">Планирование</h2>
+              <p class="advantages-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </li>
+            <li class="advantages-list-item">
+              <h2 class="advantages-subtitle">Современные технологии</h2>
+              <p class="advantages-description last">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--END-OUR-ADVANTAGES-->
 
       <!--SERVICES-->
 
-      <!-- <section class="services section">
+      <section class="services section">
         <div class="container">
           <h3 class="title">Чем мы занимаемся</h3>
           <ul class="services-list list">
@@ -134,12 +146,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--END-SERVICES-->
 
       <!--OUR-TEAM-->
 
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h3 class="title">Наша команда</h3>
           <ul class="member-list list">
@@ -317,11 +329,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--END-OUR-TEAM-->
 
       <!--OUR-CLIENTS-->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -370,11 +382,11 @@
           </ul>
         </div>
       </section>
-      <!--END-OUR-CLIENTS-->
+      END-OUR-CLIENTS
     </main>
 
     <!-- FOOTER -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-sections">
         <div class="footer-nav">
           <div class="footer-wraper">
@@ -443,12 +455,12 @@
         </div>
         <script src="./js/modal.js"></script>
       </div>
-    </footer> -->
+    </footer>
     <!-- END-FOOTER -->
 
     <!--MODAL-WINDOW-->
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn-close-btn" data-modal-close>
           <svg class="bg-close-black" width="11px" height="11px">
@@ -501,9 +513,9 @@
           <button type="submit" class="modal-btn-modal-window">Отправить</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <!-- END-MADAL-WINDOW -->
-    <!-- 
-    <script src="./js/modal.js"></script> -->
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
